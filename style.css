@@ -1,0 +1,41 @@
+body{
+    background-image: url(wave.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: none;
+    height: 100vh;
+    align-items: center;
+    align-content: center;
+    
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(233, 223, 210);
+    border-radius: 15px;
+    height: max-content;
+    max-width: 300px;
+    min-width: 250px;
+    padding: 10px;
+    margin: 0 auto;
+    box-shadow: 3px 3px;
+
+
+}
+label{
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input{
+    margin-bottom: 10px;
+    border-color: dimgrey;
+}
+button{
+    border-radius: 5px;
+    color: rgb(1, 17, 18);
+    border-color: rgb(40, 201, 242);
+    
+}
